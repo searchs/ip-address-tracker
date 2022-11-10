@@ -33,11 +33,35 @@ h3.app-title {
 
 #map {
     background: #949494;
-     height: 180px; 
+     height: 480px; 
     /* min-height: 50vh; */
     text-align: center;
     color: yellow;
     letter-spacing: 3px;
+}
+
+
+
+#details {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: white;
+    z-index: 10000;
+    margin-top: -65px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: auto;
+}
+
+#details h4 {
+    padding: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.85em;
+    text-transform: uppercase;
 }
 
 .attribution {
