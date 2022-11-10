@@ -45,6 +45,7 @@
                 <div class="input-group mb-3 mt-3">
                   <input
                     class="form-control"
+                    id="ipsearch"
                     type="search"
                     placeholder="Search for any IP address or domain"
                     aria-label="Search"
@@ -53,32 +54,34 @@
                     class="btn btn-dark text-bolder"
                     type="button"
                     id="button-addon2"
+                    onsubmit="ip_search()"
                   >
                     >
                   </button>
                 </div>
               </form>
             </div>
-            <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="row"> -->
             <div id="details">
               <div class="row justify-content-center">
                 <div class="col-3 divider-right">
                   <h4>IP Address</h4>
+                  <span id="ip-address"></span>
                   192.168.201.45
                 </div>
                 <div class="col-3 divider-right">
                   <h4>Location</h4>
+                  <span id="location"></span>
                   Hayes, London
                 </div>
                 <div class="col-3 divider-right">
                   <h4>Timezone UTC</h4>
-                  UTC +0:00
+                  UTC +00:00
+                  <span id="timezone"></span>
                 </div>
                 <div class="col-3">
                   <h4>ISP</h4>
                   T-Mobile Fibre
+                  <span id="isp"></span>
                 </div>
               </div>
             </div>
@@ -95,7 +98,12 @@
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
-          >. Coded by <a href="#">Ola Ajibode</a>.
+          >. Coded by
+          <a
+            href="https://github.com/searchs/ip-address-tracker"
+            target="_blank"
+            >searchs</a
+          >.
         </div>
       </div>
     </footer>
