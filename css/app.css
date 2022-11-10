@@ -1,0 +1,56 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif, Arial;
+  font-size: 16px;
+  margin: 0 auto;
+height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Helvetica Neue', sans-serif, Arial;
+    font-weight: 200;
+}
+
+.hero {
+  background: url('../images/pattern-bg.png');
+  max-height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  padding: 30px;
+  height: 25vh;
+}
+
+h3.app-title {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+#map {
+    background: #949494;
+     height: 180px; 
+    /* min-height: 50vh; */
+    text-align: center;
+    color: yellow;
+    letter-spacing: 3px;
+}
+
+.attribution {
+  font-size: 1.05rem;
+  text-align: center;
+  font-weight: 200;
+}
+.attribution a {
+  color: #000EBB;
+  font-weight: 300;
+}
+
+
+.footer {
+background: #f7f7f7;
+}
